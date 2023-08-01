@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  easycommarce:
+    image: easycommarce
+    build:
+      context: .
+      dockerfile: ./Dockerfile
